@@ -4,9 +4,9 @@ import styles from './MainNavigation.module.css';
 
 const MainNavigation = () => {
     return (
-        <header>
+        <header className={styles.header}>
             <nav>
-                <ul>
+                <ul className={styles.list}>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/products'>Products</Link></li>
                 </ul>
