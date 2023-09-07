@@ -3,7 +3,7 @@ import HomePage from './pages/Home';
 import Products from './pages/Products';
 
 const router = createBrowserRouter([
-  {path: '/home', element: <HomePage /> },
+  {path: '/', element: <HomePage /> },
   {path: '/products', element: <Products /> },
 ]);
 
